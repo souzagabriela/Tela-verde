@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533A10D4287E30D900252FA5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A10D3287E30D900252FA5 /* SplashScreenView.swift */; };
 		53C07BA3287DB3E200C48D86 /* TelaVerdeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */; };
 		53C07BA5287DB3E200C48D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C07BA4287DB3E200C48D86 /* ContentView.swift */; };
 		53C07BA7287DB3E300C48D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C07BA6287DB3E300C48D86 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		533A10D3287E30D900252FA5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		53C07B9F287DB3E200C48D86 /* TelaVerde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaVerde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeApp.swift; sourceTree = "<group>"; };
 		53C07BA4287DB3E200C48D86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,10 +73,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		533A10C8287DEC3700252FA5 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				533A10D3287E30D900252FA5 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		533DFE2D287E4447003B67FD /* ColorAssets */ = {
+			isa = PBXGroup;
+			children = (
+				53C07BA6287DB3E300C48D86 /* Assets.xcassets */,
+			);
+			path = ColorAssets;
+			sourceTree = "<group>";
+		};
 		53C07B96287DB3E200C48D86 = {
 			isa = PBXGroup;
 			children = (
 				53C07BA1287DB3E200C48D86 /* TelaVerde */,
+				533DFE2D287E4447003B67FD /* ColorAssets */,
 				53C07BB2287DB3E300C48D86 /* TelaVerdeTests */,
 				53C07BBC287DB3E300C48D86 /* TelaVerdeUITests */,
 				53C07BA0287DB3E200C48D86 /* Products */,
@@ -96,7 +115,7 @@
 			children = (
 				53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */,
 				53C07BA4287DB3E200C48D86 /* ContentView.swift */,
-				53C07BA6287DB3E300C48D86 /* Assets.xcassets */,
+				533A10C8287DEC3700252FA5 /* SplashScreen */,
 				53C07BA8287DB3E300C48D86 /* Preview Content */,
 			);
 			path = TelaVerde;
@@ -259,6 +278,7 @@
 			files = (
 				53C07BA5287DB3E200C48D86 /* ContentView.swift in Sources */,
 				53C07BA3287DB3E200C48D86 /* TelaVerdeApp.swift in Sources */,
+				533A10D4287E30D900252FA5 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
