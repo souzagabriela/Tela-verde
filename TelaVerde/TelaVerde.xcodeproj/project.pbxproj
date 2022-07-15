@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		533A10D4287E30D900252FA5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A10D3287E30D900252FA5 /* SplashScreenView.swift */; };
+		5361A3A9288081E900AE3863 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361A3A8288081E900AE3863 /* WelcomeScreenView.swift */; };
+		5386A1B4287F6C99000AD7ED /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386A1B3287F6C99000AD7ED /* LoginScreen.swift */; };
+		5386A1B7287F71C3000AD7ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386A1B6287F71C3000AD7ED /* Colors.swift */; };
 		53C07BA3287DB3E200C48D86 /* TelaVerdeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */; };
 		53C07BA5287DB3E200C48D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C07BA4287DB3E200C48D86 /* ContentView.swift */; };
 		53C07BA7287DB3E300C48D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C07BA6287DB3E300C48D86 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		533A10D3287E30D900252FA5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		5361A3A8288081E900AE3863 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		5386A1B3287F6C99000AD7ED /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		5386A1B6287F71C3000AD7ED /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		53C07B9F287DB3E200C48D86 /* TelaVerde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaVerde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeApp.swift; sourceTree = "<group>"; };
 		53C07BA4287DB3E200C48D86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,8 +91,24 @@
 			isa = PBXGroup;
 			children = (
 				53C07BA6287DB3E300C48D86 /* Assets.xcassets */,
+				5386A1B6287F71C3000AD7ED /* Colors.swift */,
 			);
 			path = ColorAssets;
+			sourceTree = "<group>";
+		};
+		5361A3A7288081CA00AE3863 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5361A3A8288081E900AE3863 /* WelcomeScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5386A1B5287F7180000AD7ED /* ColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ColorExtension;
 			sourceTree = "<group>";
 		};
 		53C07B96287DB3E200C48D86 = {
@@ -113,6 +135,8 @@
 		53C07BA1287DB3E200C48D86 /* TelaVerde */ = {
 			isa = PBXGroup;
 			children = (
+				5361A3A7288081CA00AE3863 /* Screens */,
+				5386A1B3287F6C99000AD7ED /* LoginScreen.swift */,
 				53C07BA2287DB3E200C48D86 /* TelaVerdeApp.swift */,
 				53C07BA4287DB3E200C48D86 /* ContentView.swift */,
 				533A10C8287DEC3700252FA5 /* SplashScreen */,
@@ -140,6 +164,7 @@
 		53C07BBC287DB3E300C48D86 /* TelaVerdeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				5386A1B5287F7180000AD7ED /* ColorExtension */,
 				53C07BBD287DB3E300C48D86 /* TelaVerdeUITests.swift */,
 				53C07BBF287DB3E300C48D86 /* TelaVerdeUITestsLaunchTests.swift */,
 			);
@@ -277,6 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C07BA5287DB3E200C48D86 /* ContentView.swift in Sources */,
+				5386A1B7287F71C3000AD7ED /* Colors.swift in Sources */,
+				5386A1B4287F6C99000AD7ED /* LoginScreen.swift in Sources */,
+				5361A3A9288081E900AE3863 /* WelcomeScreenView.swift in Sources */,
 				53C07BA3287DB3E200C48D86 /* TelaVerdeApp.swift in Sources */,
 				533A10D4287E30D900252FA5 /* SplashScreenView.swift in Sources */,
 			);

@@ -16,10 +16,10 @@ struct SplashScreenView: View {
     var body: some View {
         
         if isActive {
-            ContentView()
+            WelcomeScreenView()
         } else {
             ZStack {
-                Image("SplashScreen")
+                Image("SplashScreenLight")
                 .opacity(opacity)
                 .onAppear {
                     withAnimation(.easeIn(duration: 1.2)) {
